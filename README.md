@@ -1,73 +1,29 @@
-# React + TypeScript + Vite
+# Célia Lesaffre — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> *"Tisser un dialogue entre le trait graphique et la fibre, là où le design devient tactile."*
 
-Currently, two official plugins are available:
+Ce projet est le portfolio numérique de **Célia Lesaffre**, designer graphique et textile. Il présente une sélection de travaux explorant la tension entre l'organique et le construit, à travers divers médiums : édition, sérigraphie, crochet, 3D et animation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎨 Design & Esthétique
 
-## React Compiler
+Le site adopte une approche éditoriale minimaliste, mettant l'accent sur la matérialité des projets :
+- **Grille Dynamique** : Une mise en page "interlock" inspirée des grilles de magazines.
+- **Typographie** : Un mélange équilibré entre la Newsreader (Sérif) pour l'élégance et la Montserrat (Sans) pour la clarté technique.
+- **Interactions** : Animations fluides via Framer Motion pour une expérience immersive et "premium".
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Structure du Projet
 
-## Expanding the ESLint configuration
+- **`src/data/projects.ts`** : Le cœur de l'application, centralisant toutes les données des projets (médias, descriptions, mise en page).
+- **`src/pages/`** : L'ensemble des vues (Accueil interlock, À propos, Contact, Détails de projets).
+- **`src/components/`** : Éléments structurels comme le Layout et le système de navigation.
+- **`public/`** : Bibliothèque d'assets optimisés (WebP, MP4, WebM).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Stack Technique
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Framework** : React + Vite
+- **Styling** : Tailwind CSS
+- **Animations** : Framer Motion
+- **Services** : EmailJS (Contact)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+© 2026 Célia Lesaffre — Tous droits réservés.
