@@ -14,11 +14,11 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "MIKO",
-    category: "CROCHET",
+    category: "Crochet",
     year: "2025",
-    description: "Cette édition raconte l'histoire complètement loufoque de ces 95 doudous sous la forme du journal intime d'un enfant. Les petits carnets glissés à l'intérieur viennent raconter des informations complémentaires sur la réelle histoire de la peluche...",
+    description: "En utilisant mon crochet et mes pelotes de laine, j’ai pu donner vie à mon personnage Miko à échelle humaine.",
     images: ["/miko/1miko.webp", "/miko/2-mikozen.webp", "/miko/3-mikopose.webp", "/miko/4-miko.webp"],
-    details: ["DOUDOUS", "FORMAT --X--CM", "AUTRES DESCRIPTIFS"],
+    details: ["1m25 x 45 cm", "Crochet", "Fait main"],
     span: "row-span-2"
   },
   {
@@ -40,10 +40,10 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "MIKO BD",
+    title: "MIKO ET LA MOUCHE BD",
     category: "EDITION",
     year: "2024",
-    description: "Une exploration de la bande dessinée à travers le personnage de Miko, mêlant illustrations traditionnelles et animations numériques.",
+    description: "6 planches de bande dessinée mettant en scène Miko, un de mes personnages, qui tente désespérément d’attraper une mouche avec des moyens toujours plus démesurés.",
     images: [
       "/mikobd/1-tout.webp",
       "/mikobd/2-Mikobd.mp4",
@@ -52,15 +52,15 @@ export const projects: Project[] = [
       "/mikobd/bazzoka.webp",
       "/mikobd/scotch.webp"
     ],
-    details: ["BD / Illustration", "Fanzine", "Mix Media"],
+    details: ["14.8 x 21 cm", "16 pages", "BD / Illustration"],
     span: "row-span-2"
   },
   {
     id: 4,
-    title: "BLENDER 3D",
+    title: "MIKOTECHNO",
     category: "MODÉLISATION",
     year: "2024",
-    description: "Une série d'expérimentations autour de la modélisation 3D et du rendu sur Blender, explorant les textures et les formes organiques.",
+    description: "Modélisation, rig, texturing et rendu de mon personnage Miko sur Blender.",
     images: [
       "/blender/1-blender.webp",
       "/blender/2-blender.webp",
@@ -69,7 +69,7 @@ export const projects: Project[] = [
       "/blender/5-blender.webp",
       "/blender/6-blender.webp"
     ],
-    details: ["Cycles Render", "Sculpting", "Texturing"],
+    details: ["Blender", "Modélisation 3D", "Rig", "Texturing"],
     span: "row-span-1"
   },
   {
@@ -77,9 +77,9 @@ export const projects: Project[] = [
     title: "MIKO TECHNO",
     category: "ANIMATION 3D",
     year: "2024",
-    description: "Une animation dynamique réalisée sur Blender, mettant en scène Miko dans un univers techno-organique.",
+    description: "Animation de mon personnage sur Blender, gestion de la texture, du cadrage, des éclairages pour lui donner vie.",
     images: ["/animationblender/Mikotechno.mp4"],
-    details: ["Blender Animation", "Motion Design", "3D Rendering"],
+    details: ["1 min 30", "Blender Animation"],
     span: "row-span-1",
     hasAudio: true
   },
@@ -138,10 +138,10 @@ export const projects: Project[] = [
   },
   {
     id: 9,
-    title: "ÉDITION DOU DOU",
+    title: "DOUDOUS",
     category: "EDITION",
     year: "2024",
-    description: "Un projet d'édition centré sur l'univers des doudous, explorant la matière et la forme à travers une mise en page épurée.",
+    description: "Cette édition raconte l’histoire de 95 doudous sous la forme du journal intime d’un enfant. Les carnets qui se glissent à l’intérieur retracent l’histoire de l’arrivée des premières peluches.",
     images: [
       "/editiondoudou/1-editiondoudou.webp",
       "/editiondoudou/2-editiondoudou.webp",
@@ -155,29 +155,30 @@ export const projects: Project[] = [
       "/editiondoudou/10-editiondoudou.webp",
       "/editiondoudou/11-editiondoudou.webp"
     ],
-    details: ["Édition", "Design Graphique", "Mise en page"],
+    details: ["19 x 13 cm", "128 pages"],
     span: "row-span-1"
   },
   {
     id: 10,
-    title: "POSTER DOU DOU",
+    title: "POSTER POSTER POSTER",
     category: "GRAPHISME",
     year: "2024",
-    description: "Une série d'affiches grand format mettant en scène les doudous dans des compositions graphiques minimalistes.",
+    description: "Poster animé qui met en scène ma collection de doudous et de peluches. Les dessins en arrière-plan sont animés en image par image sur Krita, tandis que le texte est directement animé dans After Effects.",
     images: [
+      "/posterdoudou/1-Poster-Poster-Poster.mp4",
       "/posterdoudou/2-doudou1.webp",
       "/posterdoudou/3-doudou2.webp",
       "/posterdoudou/4-doudou3.webp"
     ],
-    details: ["Affiches", "Sérigraphie", "Composition"],
+    details: ["45sec", "After Effects", "Krita"],
     span: "row-span-2"
   },
   {
     id: 11,
-    title: "AIR DE JEU (PHO)",
-    category: "INSTALLATION",
+    title: "MÉDIATION ATELIER ENFANTS",
+    category: "COUTURE",
     year: "2024",
-    description: "Documentation photographique de l'installation physique Air de Jeu, capturer ses couleurs vibrantes et ses formes sculpturales.",
+    description: "J’ai eu l’occasion d’animer des ateliers avec des enfants de 6 à 11 ans.Je leur ai proposé de dessiner un personnage pour ensuite le transformer en doudou en utilisant la couture. Ils ont adoré participer à cet atelier qui s’est réparti sur 4 semaines.",
     images: [
       "/airdejeu/1-air.webp",
       "/airdejeu/2-air.webp",
@@ -191,15 +192,15 @@ export const projects: Project[] = [
       "/airdejeu/10-air.webp",
       "/airdejeu/11-air.webp"
     ],
-    details: ["Photo Documentation", "Installation", "Design"],
+    details: ["~10 x 15 cm", "Couture"],
     span: "row-span-1"
   },
   {
     id: 12,
-    title: "AIR DE JEU (RENDU)",
-    category: "MODÉLISATION",
+    title: "MÉDIATION ATELIER ENFANTS (RENDU)",
+    category: "COUTURE",
     year: "2024",
-    description: "Une exploration ludique de l'espace et de la forme à travers des rendus 3D colorés et dynamiques.",
+    description: "Rendu des doudous créés lors des ateliers enfants.",
     images: [
       "/airdejeurendu/1-jeurendu.webp",
       "/airdejeurendu/2-jeurendu.webp",
@@ -228,7 +229,7 @@ export const projects: Project[] = [
       "/airdejeurendu/25-jeurendu.webp",
       "/airdejeurendu/26-jeurendu.webp"
     ],
-    details: ["3D Render", "Blender", "Design Ludique"],
+    details: ["~10 x 15 cm", "Couture"],
     span: "row-span-2"
   },
   {
@@ -236,7 +237,7 @@ export const projects: Project[] = [
     title: "COUDRE L'IMAGINAIRE",
     category: "RESEARCH",
     year: "2023",
-    description: "Un projet de recherche textile explorant les limites entre le réel et l'imaginaire à travers la couture et la manipulation de matières.",
+    description: "Livre Objet qui retranscrit les différents ateliers de couture menés avec les enfants.",
     images: [
       "/coudreimaginaire/1-coudreim.webp",
       "/coudreimaginaire/2-coudreim.webp",
@@ -244,15 +245,15 @@ export const projects: Project[] = [
       "/coudreimaginaire/4-coudreim.webp",
       "/coudreimaginaire/5-coudreim.webp"
     ],
-    details: ["Textile", "Recherche", "Couture"],
+    details: ["13.8 x 9.5 cm ", "22 pages"],
     span: "row-span-1"
   },
   {
     id: 14,
-    title: "ÉDITION CROCHET",
+    title: "MANUEL DU CARRÉ GRANNY",
     category: "EDITION",
     year: "2024",
-    description: "Une exploration éditoriale de la technique du crochet, documentant les points, les textures et les créations textiles.",
+    description: "Un manuel qui répertorie toutes les étapes à suivre pour  réaliser un carré granny au crochet.",
     images: [
       "/editioncrochet/1-editioncrochet.webp",
       "/editioncrochet/2-editioncrochet.webp",
@@ -260,20 +261,20 @@ export const projects: Project[] = [
       "/editioncrochet/4-editioncrochet.webp",
       "/editioncrochet/5-editioncrochet.webp"
     ],
-    details: ["Édition", "Crochet", "Technique"],
+    details: ["Édition", "21 x 14.8 cm", "40 pages"],
     span: "row-span-1"
   },
   {
     id: 15,
-    title: "SÉRIGRAPHIE LAINE",
+    title: "SANS-TITRE",
     category: "SÉRIGRAPHIE",
     year: "2024",
-    description: "Une série d'expérimentations mêlant sérigraphie traditionnelle et textures de laine, explorant le passage du plat au volume.",
+    description: "Essais d’impressions de deux tirages en sérigraphie sur de la laine. L’objectif était de tester les limites de la sérigraphie et de savoir jusqu’à quelle taille les textes sont visibles sur de la laine.",
     images: [
       "/serigraphielaine/1-serigraphielaine.webp",
       "/serigraphielaine/2-serigraphielaine.webp"
     ],
-    details: ["Sérigraphie", "Laine", "Matière"],
+    details: ["Sérigraphie", "21 x 29.7 cm", "Matière"],
     span: "row-span-2"
   },
   {
@@ -281,7 +282,7 @@ export const projects: Project[] = [
     title: "DENTELLE",
     category: "RESEARCH",
     year: "2024",
-    description: "Une exploration de la dentelle à travers des jeux d'ombre et de lumière, capturant la délicatesse des motifs et de la matière.",
+    description: "Création d’empreintes en utilisant de l’encre appliquée sur des napperons.",
     images: [
       "/dentelle/1-dentelle.webp",
       "/dentelle/2-dentelle.webp",
@@ -291,27 +292,27 @@ export const projects: Project[] = [
       "/dentelle/6-dentelle.webp",
       "/dentelle/7-dentelle.webp"
     ],
-    details: ["Textile", "Dentelle", "Recherche"],
+    details: ["42 x 29.7 cm", "Monotypes"],
     span: "row-span-1"
   },
   {
     id: 17,
-    title: "SÉRIGRAPHIE TRAM",
+    title: "SÉRIGRAPHIE TRAME",
     category: "SÉRIGRAPHIE",
     year: "2024",
-    description: "Une exploration de la trame et du motif à travers la sérigraphie, jouant sur les superpositions et les effets de moirage.",
+    description: "Sérigraphie en quadrichromie qui reprend une sélection de motifs extraits du travail du fil et de la laine. La composition de motifs a été réalisée avec le site web TramSVG. Ces affiches sont en lien avec des extraits du livre de Tim Ingolg «Une brève histoire des lignes.»",
     images: [
       "/serigraphietram/1-seritram.webp",
       "/serigraphietram/2-seritram.webp",
       "/serigraphietram/3-seritram.webp"
     ],
-    details: ["Sérigraphie", "Trame", "Graphisme"],
+    details: ["Sérigraphie", "89.5 x 64 cm"],
     span: "row-span-1"
   },
   {
     id: 18,
-    title: "TYPO",
-    category: "GRAPHISME",
+    title: "POINT DE CROIX",
+    category: "TYPOGRAPHIE",
     year: "2024",
     description: "Une recherche typographique explorant la structure de la lettre et son potentiel plastique à travers différentes expérimentations visuelles.",
     images: [
@@ -320,22 +321,22 @@ export const projects: Project[] = [
       "/typo/3-typo.webp",
       "/typo/4-typo.webp"
     ],
-    details: ["Typographie", "Design Graphique", "Expérimentation"],
+    details: ["Typographie", "11 x 7.5 cm", "26 Matrices"],
     span: "row-span-1"
   },
   {
     id: 19,
     title: "SPÉCIMEN",
-    category: "MOTION",
+    category: "TYPOGRAPHIE",
     year: "2024",
-    description: "Un spécimen typographique animé explorant le mouvement et la structure de la lettre dans un espace tridimensionnel.",
+    description: "Spécimen typographique réalisé à partir d’une typo en point de croix faite sur des matrices.",
     images: [
       "/specimen/1-Specimen.mp4",
       "/specimen/2-specimen.webp",
       "/specimen/3-specimen.webp",
       "/specimen/4-specimen.webp"
     ],
-    details: ["Motion Design", "Typography", "Video"],
+    details: ["17.6 x 25 cm", "Typography", "20 pages"],
     span: "row-span-2"
   },
   {
@@ -343,7 +344,7 @@ export const projects: Project[] = [
     title: "MOTIFS",
     category: "RESEARCH",
     year: "2024",
-    description: "Une collection de motifs expérimentaux explorant la répétition, le rythme et la couleur à travers différentes techniques de création numérique.",
+    description: "À l’aide de mes différentes expérimentations autour du travail du fil et de la laine, j’en ai retiré un certain nombre de formes. En les superposants j’ai créer un inventaire de toutes celles collectées.",
     images: [
       "/motifs/1-motif.webp",
       "/motifs/2-motif.webp",
@@ -354,15 +355,15 @@ export const projects: Project[] = [
       "/motifs/7-motif.webp",
       "/motifs/8-motif.webp"
     ],
-    details: ["Pattern Design", "Recherche Visuelle", "Digital"],
+    details: ["14.5 x 14.5 cm", "Recherche Visuelle", "48 pages"],
     span: "row-span-1"
   },
   {
     id: 21,
-    title: "ÉDITION PASTEL",
+    title: "PASTEL",
     category: "EDITION",
     year: "2024",
-    description: "Un projet d'édition explorant la douceur et la texture du pastel à travers une mise en page délicate et une recherche chromatique subtile.",
+    description: "Un carnet d’exploration plastiques regroupant des dessins réalisés au pastel, puis redimensionnés et retouchés sur Photoshop.",
     images: [
       "/editionpastel/1-editionpastel.webp",
       "/editionpastel/2-editionpastel.webp",
@@ -371,7 +372,7 @@ export const projects: Project[] = [
       "/editionpastel/5-editionpastel.webp",
       "/editionpastel/6-editionpastel.webp"
     ],
-    details: ["Édition", "Pastel", "Recherche Chromatique"],
+    details: ["Édition", "Pastel", "14 x 20.5 cm", "96 pages"],
     span: "row-span-2"
   },
   {
@@ -402,15 +403,15 @@ export const projects: Project[] = [
       "/linogravure/1-linogravure.webp",
       "/linogravure/2-linogravure.webp"
     ],
-    details: ["Linogravure", "Estampe", "Noir & Blanc"],
+    details: ["Linogravure", "Estampe"],
     span: "row-span-1"
   },
   {
     id: 24,
     title: "REGARD À L'OEUVRE",
-    category: "RESEARCH",
+    category: "PHOTOGRAPHIE",
     year: "2024",
-    description: "Une série photographique et éditoriale capturant le regard et l'interaction du public avec les oeuvres d'art, explorant la médiation et la perception.",
+    description: "Pour cette série de 15 photographies, j’ai choisi de photographier les participants des ateliers tout public de mon école, tels que la gravure, le modèle vivant ou la peinture. Ces personnes, extérieures aux cursus habituels, viennent créer en dehors des heures de cours. J’ai voulu mettre en lumière leurs gestes de création, ainsi que l’expression de leur regard.",
     images: [
       "/reagardaloeuvre/1-regard.webp",
       "/reagardaloeuvre/2-regard.webp",
@@ -424,7 +425,7 @@ export const projects: Project[] = [
       "/reagardaloeuvre/10-regard.webp",
       "/reagardaloeuvre/11-regard.webp"
     ],
-    details: ["Photographie", "Médiation", "Édition"],
+    details: ["Photographie", "48.5 x 33 cm"],
     span: "row-span-2"
   },
   {
@@ -463,10 +464,10 @@ export const projects: Project[] = [
   },
   {
     id: 27,
-    title: "ELLES N'EXISTENT PAS",
-    category: "EDITION",
+    title: "CES PERSONNES N’EXISTENT PAS",
+    category: "MONTAGE PHOTOGRAPHIQUE",
     year: "2024",
-    description: "Un projet d'édition explorant l'absence et l'invisibilité à travers une recherche visuelle et typographique sur la condition féminine.",
+    description: "Série de 20 montages photos qui fusionnent plusieurs visages en un, donnant vie à de nouvelles personnalités.",
     images: [
       "/ellesnexistentpas/1-existepas.webp",
       "/ellesnexistentpas/2-existepas.webp",
@@ -477,7 +478,7 @@ export const projects: Project[] = [
       "/ellesnexistentpas/7-existepas.webp",
       "/ellesnexistentpas/8-existepas.webp"
     ],
-    details: ["Édition", "Design Graphique", "Recherche"],
+    details: ["42 x 29.7 cm", "Montage photographique"],
     span: "row-span-1"
   },
   {
@@ -505,10 +506,10 @@ export const projects: Project[] = [
   },
   {
     id: 29,
-    title: "CATALOGUE EXPO",
+    title: "VOIR AUTREMENT",
     category: "EDITION",
     year: "2024",
-    description: "Conception éditoriale d'un catalogue d'exposition, explorant la mise en relation des oeuvres et la narration curatoriale à travers le design graphique.",
+    description: "Réalisation d'un catalogue d'exposition pour 'Rien ne nous y préparait. Tout nous y préparait' de Wolfgang Tillmans au Centre Pompidou.",
     images: [
       "/catalogueexpo/1-Voir-Autrement.mp4",
       "/catalogueexpo/2-expo.webp",
@@ -517,19 +518,19 @@ export const projects: Project[] = [
       "/catalogueexpo/5-expo.webp",
       "/catalogueexpo/6-expo.webp"
     ],
-    details: ["Édition", "Catalogue", "Design Graphique"],
+    details: ["Édition", "17.6 x 25 cm", "32 pages"],
     span: "row-span-1"
   },
   {
     id: 30,
-    title: "AFFICHE READ ME",
+    title: "ARCHIVING IS THE NEW FOLK ART",
     category: "GRAPHISME",
     year: "2024",
-    description: "Une affiche expérimentale explorant la relation entre le texte et l'image à travers une composition typographique forte et minimaliste.",
+    description: "Travail de mise en page à partir du texte « Archiving is the new folk art » de Kenneth Goldsmith.",
     images: [
       "/affichereadme/read-me.webp"
     ],
-    details: ["Affiche", "Typography", "Design Graphique"],
+    details: ["100 x 70 cm"],
     span: "row-span-2"
   }
 ];
