@@ -21,7 +21,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <img
               src="/logoheader/logoheader.webp"
               alt="Célia Lesaffre"
-              className="h-24 w-auto hover:opacity-80 transition-opacity"
+              className="h-16 md:h-24 w-auto hover:opacity-80 transition-opacity"
             />
           </Link>
         </div>
@@ -47,7 +47,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </nav>
       </header>
 
-      <main className="flex-grow pt-40 px-8 max-w-[1800px] mx-auto w-full">
+      <main className="flex-grow pt-72 md:pt-40 px-8 max-w-[1800px] mx-auto w-full">
         <motion.div
           key={location.pathname}
           initial={{ opacity: 0, y: 10 }}

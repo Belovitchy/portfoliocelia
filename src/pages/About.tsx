@@ -14,21 +14,22 @@ const About: React.FC = () => {
           className="space-y-8"
         >
           <p className="text-2xl md:text-3xl font-serif leading-relaxed italic text-deep-charcoal">
-            "Tisser un dialogue entre le trait graphique et la fibre, là où le design devient tactile."
+            "Tisser des récits et du lien : une pratique du design à la croisée du relationnel, du jeu et de la matière."
           </p>
 
-          <div className="space-y-6 text-lg text-slate-600 font-serif leading-loose text-justify">
+          <div className="space-y-6 text-lg text-slate-600 font-serif leading-loose text-left">
             <p>
               Je travaille depuis cinq ans en tant que serveuse dans une crêperie proche du village où j’ai grandi. Cet emploi étudiant m’a accompagnée au fil des années, depuis le passage de mon bac de français à celui de mon diplôme d’art aujourd’hui ; si il n’a a priori pas grand chose à voir avec une pratique artistique, c’est à partir de ce point que j’ai commencé à travailler autour du relationnel. Aujourd’hui, je cherche à réfléchir le design graphique comme un procédé à même de créer du lien.
             </p>
-            <p>
-              Dans un même temps, j'exploite les techniques du fil – tel que le crochet que je pratique depuis 3 ans – pour créer de nouvelles formes graphiques. Je procède par identification des motifs qui se dégagent des mailles, que je multiplie ensuite par combinaison et superposition. Je cherche ensuite à intégrer ce vocabulaire à ma pratique ; que ce soit comme outil pédagogique ou comme support à la génération d’images, de trames ou de typographies. Par ces procédés, je cherche à proposer des réponses à la question suivante : comment faire image avec des formes graphiques extraites de pratiques manuelles ?
-            </p>
+
             <p>
               En ce sens, je participe à l’ARC Aire de jeu, une option permettant aux étudiants de l’école d’organiser des ateliers pédagogiques à destination d'enfants et d’adolescents, pour les introduire à la création. Ainsi, je leur ai proposé de fabriquer leurs propres doudous en feutrine, de manière à leur enseigner les bases de la couture tout en bâtissant un pont vers ma pratique. Ces cours sont pour moi une véritable source de richesse artistique, car ils permettent de faire émerger un langage visuel tout en capitalisant sur des points qui me sont chers : l’imaginaire, la narration, le jeu, l’échange et l’humour.
             </p>
             <p>
               Cet atelier est lié avec un projet que je mène depuis un an maintenant : celui de la création de personnages en crochet, servant de supports aux histoires que je souhaite raconter. Créatures difformes, peluches géantes, êtres humanoïdes, leur aspect étrange s’équilibre avec la matérialité duveteuse de la laine, leur créant un côté attendrissant. Ces personnages viennent ensuite nourrir ma pratique : je les dispose dans des bandes dessinées, leur construis des visuels et des récits pour qu’ils prennent corps. Dans cet objectif, je travaille aussi beaucoup l’animation (2D comme 3D), un médium dont le processus de fabrication me fascine. Ainsi, une de mes intentions est d’en approfondir la maîtrise.
+            </p>
+            <p>
+              Dans un même temps, j'exploite les techniques du fil – tel que le crochet que je pratique depuis 3 ans – pour créer de nouvelles formes graphiques. Je procède par identification des motifs qui se dégagent des mailles, que je multiplie ensuite par combinaison et superposition. Je cherche ensuite à intégrer ce vocabulaire à ma pratique ; que ce soit comme outil pédagogique ou comme support à la génération d’images, de trames ou de typographies. Par ces procédés, je cherche à proposer des réponses à la question suivante : comment faire image avec des formes graphiques extraites de pratiques manuelles ?
             </p>
           </div>
         </motion.div>
