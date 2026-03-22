@@ -126,7 +126,7 @@ export const projects: Project[] = [
     category: "ANIMATION 3D",
     year: "2024",
     description: "Animation de mon personnage sur Blender, gestion de la texture, du cadrage, des éclairages pour lui donner vie.",
-    images: ["/animationblender/mikotechno.mp4"],
+    images: ["/animationblender/Mikotechno.mp4"],
     details: ["Animation 3D", "Blender", "1 min 30"],
     span: "row-span-2",
     hasAudio: true
